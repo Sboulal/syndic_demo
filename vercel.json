@@ -12,7 +12,7 @@
     ],
     "routes": [
         {
-            "src": "/(css|js|images|vendor|build|fonts|svg)/(.*)",
+            "src": "/(css|js|images|vendor|client-images|build|fonts|svg)/(.*)",
             "dest": "/public/$1/$2"
         },
         {
@@ -27,6 +27,8 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
+        "APP_URL": "https://syndicdemo.vercel.app",
+        "ASSET_URL": "https://syndicdemo.vercel.app",
         "CACHE_DRIVER": "array",
         "SESSION_DRIVER": "cookie",
         "QUEUE_CONNECTION": "sync",
