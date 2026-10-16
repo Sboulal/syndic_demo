@@ -14,7 +14,7 @@
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"> -->
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ asset('css/libs.min.css') }}">
+    <link rel="stylesheet" href="/css/libs.min.css">
     <link rel="stylesheet" href="{{ asset('css/hope-ui.css?v=1.0') }}">
     <!-- remixicon -->
     <!-- <link rel="stylesheet" href="{{ asset('vendor/remixicon/fonts/remixicon.css') }}"/> -->
