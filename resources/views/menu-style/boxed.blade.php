@@ -261,7 +261,7 @@
                                 <tr>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img class="bg-soft-primary rounded img-fluid avatar-40 me-3" src="{{asset('images/shapes/01.png')}}" alt="profile">
+                                           <img class="rounded-circle img-fluid avatar-40 me-3 shadow-sm" src="https://randomuser.me/api/portraits/men/32.jpg" alt="profile" style="object-fit: cover;">
                                             <h6>Addidis Sportwear</h6>
                                         </div>
                                     </td>
@@ -291,7 +291,7 @@
                                 <tr>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img class="bg-soft-primary rounded img-fluid avatar-40 me-3" src="{{asset('images/shapes/05.png')}}" alt="profile">
+                                            <img class="rounded-circle img-fluid avatar-40 me-3 shadow-sm" src="https://randomuser.me/api/portraits/men/44.jpg" alt="profile" style="object-fit: cover;">
                                             <h6>Netflixer Platforms</h6>
                                         </div>
                                     </td>

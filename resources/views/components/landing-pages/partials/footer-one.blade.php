@@ -52,7 +52,7 @@
             </div>
             <hr>
             <div class="col-md-12 text-center">
-                <p>©<script>document.write(new Date().getFullYear())</script> Hope UI, All Rights Reserved.</p>
+                <p>©<script>document.write(new Date().getFullYear())</script> Syndify, All Rights Reserved.</p>
             </div>
         </div>
     </div>

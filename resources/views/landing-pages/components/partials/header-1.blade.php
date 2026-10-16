@@ -16,7 +16,7 @@
                         transform="rotate(45 10.5562 -0.556152)" fill="currentColor"></rect>
                 </svg>
                 <!--logo End-->
-                <h5 class="logo-title">Hope UI</h5>
+                <h5 class="logo-title">Syndify</h5>
             </a>
             <div class="d-flex align-items-center d-xl-none">
                 <button class="d-xl-none btn btn-primary rounded-pill p-1 pt-0" data-bs-toggle="offcanvas"
@@ -41,7 +41,7 @@
                             transform="rotate(45 10.5562 -0.556152)" fill="currentColor"></rect>
                     </svg>
                     <!--logo End-->
-                    <h5 class="logo-title">Hope UI</h5>
+                    <h5 class="logo-title">Syndify</h5>
                 </a>
             </div>
             <ul class="d-block d-xl-none list-unstyled m-0">

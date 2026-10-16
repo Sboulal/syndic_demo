@@ -138,3 +138,63 @@ Route::group(['prefix' => 'icons'], function() {
 //Extra Page Routs
 Route::get('privacy-policy', [HomeController::class, 'privacypolicy'])->name('pages.privacy-policy');
 Route::get('terms-of-use', [HomeController::class, 'termsofuse'])->name('pages.term-of-use');
+
+
+
+
+
+// Rediriger la page d'accueil directement vers le Dashboard
+Route::get('/', function () {
+    return redirect()->route('dashboard');
+});
+
+// ==========================================
+// ROUTES PROTÉGÉES (Nécessitent une connexion)
+// ==========================================
+Route::group(['middleware' => 'auth'], function () {
+
+    // 1. Dashboard Principal
+    Route::get('/dashboard', [HomeController::class, 'index'])->name('dashboard');
+
+    // 2. Gestion des Utilisateurs (Adjoints, Syndic)
+    Route::resource('users', UserController::class);
+
+
+    // ==========================================
+    // MODULES SYNDIC APP
+    // ==========================================
+
+    // Copropriété (Lots & Résidents)
+    Route::get('/lots', function () {
+        return view('lots.index'); // Affiche la page qu'on a créée
+    })->name('lots.index');
+
+    Route::get('/residents', function () {
+        return view('residents.index'); // À créer plus tard
+    })->name('residents.index');
+
+    // Trésorerie (Cotisations)
+    Route::get('/cotisations', function () {
+        return view('cotisations.index'); // Affiche la page qu'on a créée
+    })->name('cotisations.index');
+
+
+    // Réclamations (Tickets)
+    Route::get('/reclamations', function () {
+        return view('reclamations.index'); // À créer plus tard
+    })->name('reclamations.index');
+
+     Route::get('/depenses', function () {
+        return view('depenses.index'); // À créer plus tard
+    })->name('depenses.index');
+
+
+
+    // Documents & AG
+    Route::get('/documents', function () {
+        return view('documents.index'); // À créer plus tard
+    })->name('documents.index');
+
+    
+
+});

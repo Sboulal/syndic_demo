@@ -198,7 +198,7 @@
                            </td>
                         </tr>
                         <tr>
-                           <td class="text-center"><img class="bg-soft-primary rounded img-fluid avatar-40 me-3" src="{{asset('images/shapes/05.png')}}" alt="profile"></td>
+                           <td class="text-center"><img class="rounded-circle img-fluid avatar-40 me-3 shadow-sm" src="https://randomuser.me/api/portraits/men/44.jpg" alt="profile" style="object-fit: cover;"></td>
                            <td>Lynn Guini</td>
                            <td>+27 2563 456 589</td>
                            <td>lynnguini@gmail.com</td>
@@ -324,7 +324,7 @@
                            </td>
                         </tr>
                         <tr>
-                           <td class="text-center"><img class="bg-soft-primary rounded img-fluid avatar-40 me-3" src="{{asset('images/shapes/05.png')}}" alt="profile"></td>
+                           <td class="text-center"><img class="rounded-circle img-fluid avatar-40 me-3 shadow-sm" src="https://randomuser.me/api/portraits/men/44.jpg" alt="profile" style="object-fit: cover;"></td>
                            <td>Marge Arita</td>
                            <td>+27 5625 456 589</td>
                            <td>margearita@gmail.com</td>

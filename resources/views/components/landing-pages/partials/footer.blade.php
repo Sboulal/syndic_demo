@@ -91,7 +91,7 @@
             <div class="row">
                 <div class="col-md-12 text-center text-white">
                         <p class="mb-0">©
-                            <script>document.write(new Date().getFullYear())</script> Hope UI, All Rights Reserved.
+                            <script>document.write(new Date().getFullYear())</script> Syndify, All Rights Reserved.
                         </p>
                     </div>
             </div>
