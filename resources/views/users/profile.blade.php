@@ -15,7 +15,7 @@
                      </div>
                      <div class="d-flex flex-wrap align-items-center mb-3 mb-sm-0">
                         <h4 class="me-2 h4">{{ $data->full_name ?? 'Austin Robertson'  }}</h4>
-                        <span class="text-capitalize"> - {{ str_replace('_',' ',auth()->user()->user_type) ?? 'Marketing Administrator' }}</span>
+                        <span class="text-capitalize"> - {{ str_replace('_',' ',user_type) ?? 'Marketing Administrator' }}</span>
                      </div>
                   </div>
                   <ul class="d-flex nav nav-pills mb-0 text-center profile-tab" data-toggle="slider-tab" id="profile-pills-tab" role="tablist">
@@ -604,7 +604,7 @@
                         <img src="{{asset('images/avatars/01.png')}}" alt="profile-img" class="rounded-pill avatar-130 img-fluid">
                      </div>
                      <div class="mt-3">
-                        <h3 class="d-inline-block">{{ auth()->user()->name ?? 'Austin Robertson'  }}</h3>
+                        <h3 class="d-inline-block">{{ name ?? 'Austin Robertson'  }}</h3>
                         <p class="d-inline-block pl-3"> - Web developer</p>
                         <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                      </div>

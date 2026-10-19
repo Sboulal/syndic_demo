@@ -22,7 +22,7 @@ class AuthHelper {
     public static function checkMenuRoleAndPermission($menu)
     {
         if (Auth::check()) {
-            if ($menu->data('role') == null && auth()->user()->hasRole('admin')) {
+            if ($menu->data('role') == null && hasRole('admin')) {
                 return true;
             }
 
@@ -31,13 +31,13 @@ class AuthHelper {
             }
 
             if($menu->data('role') != null) {
-                if(auth()->user()->hasAnyRole(explode(',', $menu->data('role')))) {
+                if(hasAnyRole(explode(',', $menu->data('role')))) {
                     return true;
                 }
             }
 
             if($menu->data('permission') != null) {
-                if(auth()->user()->can($menu->data('permission')) ) {
+                if(can($menu->data('permission')) ) {
                     return true;
                 }
             }
